@@ -1,0 +1,23 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/"
+  ],
+  "id": "did:web:raw.githubusercontent.com:fer-tinamica:Credenciales-verificables:main",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:fer-tinamica:Credenciales-verificables:main#key-1",
+      "type": "JsonWebKey2020",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "2C0ypvcG4GjTEplpgl5rtue5D3x0uIdTl25WSczVIZJNBHsXjEfer54sxxTRIqLYP1wQO7diyK8bGWaUHKivtZDKPVg7YZYcaGD75mnvVuQJ1dlCLpL3mTxD-k1r6vPF8XH4_gBCGlSlwOUh69S0nSChU1tPTVvX5ULhRfWN0f_kdTG1ryeB8SpWYeKdNx79tP9x3r4Z0m0vnHbEsyM5g80LjEYHi3TGu8CKm4m9ayhoUrSkIakYmQH-RZWk_J-s6uTTT-f-qmKFBj0vQT6MglRWFehFpCWMeELg2N5qrGxcB0xIhdAL4tsOaHFhNIoonelbog0ueMBDBAQ3129gOQ",
+        "e": "AQAB",
+        "alg": "RS256",
+        "x5u": "https://raw.githubusercontent.com/fer-tinamica/Credenciales-verificables/main/cert.pem"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:raw.githubusercontent.com:fer-tinamica:Credenciales-verificables:main#key-1"
+  ]
+}
